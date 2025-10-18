@@ -12,7 +12,7 @@ int main()
 	cin >> sec;
 	godz = sec / 3600;
 	min = sec/60-godz*60;
-	reszta = sec-min*60-godz*3600;
+	reszta = sec-min*60+godz*3600;
 			
 	cout << "czas wynosi:"<<godz<<"h" << min <<"min" << reszta <<"sec" << endl;
 	
