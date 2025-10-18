@@ -1,5 +1,12 @@
+#include<iostream>
+#include<string>
+#include<cmath>
 
+using namespace std;
 
+int main()
+{
+	double lenght2,height,paint_p,paint_l
 cout << "podaj dlugosc sciany:";
 	cin >> lenght2;
 	cout << "podaj wysokośc sciany:";
@@ -9,3 +16,4 @@ cout << "podaj dlugosc sciany:";
 	paint_l = (lenght2 * height) / paint_p;
 	cout<<"do pomalowania sciany potrzeba : " << paint_l << "litrów farby" << endl;
 	return 0;
+}
