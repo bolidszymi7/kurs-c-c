@@ -14,7 +14,7 @@ int main()
 	if (dochod <= 30000)
 	 podatek = dochod * 0.12;
 	else
-	 podatek = 30000 * 0.12 - (dochod - 30000) * 0.32;
+	 podatek = 30000 * 0.12 + (dochod - 30000) * 0.32;
 		
 	cout << "twoj podatek:"  <<podatek<< endl;
 
