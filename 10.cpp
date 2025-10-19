@@ -10,9 +10,9 @@ int main()
 	cin >> wynik;
 	if (wynik <= 100 && wynik>=90)
 		cout << "ocena: celujacy";
-	else if (wynik <= 89 && wynik>=75)
+	else if (wynik < 90 && wynik>=75)
 		cout << "ocena: bardzo dobry";
-	else if (wynik <= 74 && wynik>=50)
+	else if (wynik < 75 && wynik>=50)
 		cout << "ocena: dobry";
 	else if (wynik < 50)
 		cout << "ocena: niedostateczny";
