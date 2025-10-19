@@ -16,5 +16,9 @@ int main()
 		cout << "ocena: dobry";
 	else if (wynik < 50)
 		cout << "ocena: niedostateczny";
-     return 0;
+  
+	if (wynik>100)
+		cout<<"wprowadziles bledne dane";
+	
+	return 0;
 }
