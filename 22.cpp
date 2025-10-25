@@ -11,7 +11,7 @@ int main() {
 	cout << "podaj nazwisko:" << endl;
 	cin >> nazw;
 
-	cout << strcat(imie,nazw);
+	cout << strcat(imie," ")<<strcat(nazw," ");
 
 	return 0;
 }
