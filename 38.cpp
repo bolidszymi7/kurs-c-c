@@ -9,12 +9,13 @@ using namespace std;
 
 int main() {
     int liczby[10];
-    int min = liczby[0];
-    int max = liczby[0];
+
     cout << "podaj 10 liczb:" << endl;
     for (int a = 0; a < 10; a++) {
         cin >> liczby[a];
     }
+     int min = liczby[0];
+    int max = liczby[0];
     int n = sizeof(liczby) / sizeof(liczby[0]);
     for (int i = 1; i < n; i++) {
 
